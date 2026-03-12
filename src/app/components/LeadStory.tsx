@@ -1,7 +1,8 @@
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { useLanguage } from "./LanguageContext";
+import allaOriPhoto from "@/assets/alla-ori.jpg";
 
-const ALLA_ORI_PHOTO = "https://images.unsplash.com/photo-1702337446616-b48157bfc165?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b21hbiUyMGh1Z2dpbmclMjBnb2xkZW4lMjBkb2clMjBwb3J0cmFpdHxlbnwxfHx8fDE3NzMzMzgyMzd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
+const ALLA_ORI_PHOTO = allaOriPhoto;
 const CAKE_IMG = "https://images.unsplash.com/photo-1594273255015-6d432e36e488?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiaXJ0aGRheSUyMGNha2UlMjBjZWxlYnJhdGlvbiUyMGNhbmRsZXN8ZW58MXx8fHwxNzczMzMxMjUyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
 
 export function LeadStory() {
